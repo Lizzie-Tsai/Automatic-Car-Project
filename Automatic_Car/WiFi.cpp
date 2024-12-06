@@ -47,7 +47,7 @@ void WiFi_Setup(bool WiFi_Mode)
     Serial.println(password_Router);
     Serial.print("\nThen you can enter: '");
     Serial.print(local_ip);
-    Serial.println("' to connect the car in Freenove app.");
+    Serial.println("' to connect the car.");
     Buzzer_Alarm(1);
     delay(100);
     Buzzer_Alarm(0);
@@ -66,7 +66,7 @@ void WiFi_Setup(bool WiFi_Mode)
     Serial.println(password_AP);
     Serial.print("\nThen you can enter: '");
     Serial.print(local_IP);
-    Serial.println("' to connect the car in Freenove app.");
+    Serial.println("' to connect the car.");
     Buzzer_Alarm(1);
     delay(100);
     Buzzer_Alarm(0);
